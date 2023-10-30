@@ -2,12 +2,13 @@
  * @param {number} x
  * @return {boolean}
  */
-
 var isPalindrome = function(x) {
-    let reserved = x.toString().split('').reverse().join('')
-    if (x.toString() === reserved){
-        return true
-    }else{
-        return false
-    }
+    let b = x.toString().split('').reverse().join('')
+   
+    let  a = x.toString()
+  if(a === b){
+      return true 
+  }else{
+      return false
+  }
 };
